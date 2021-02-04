@@ -15,6 +15,8 @@ class Login {
       document.getElementById("loginModal")
     );
 
+    console.log("chamou login");
+
     this.sidebarHeading = document.querySelector(".sidebar-heading");
     this.userCredentials;
 
